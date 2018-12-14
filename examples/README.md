@@ -19,7 +19,7 @@ The time series can be observed with the `render` method.
 
 ## DQN agent: `dqn_agent.py`
 
-As an example, we implement a value-based Q-learning algorithm that learns to trade a periodic signal. Run `python examples/dqn_agent.py` to launch it. Once the learning process is over, the learned strategy is displayed as live time series. Trades are represented by colored (green for buy, red for sell) triangles. Once run, the agent will have learned to buy (sell) at local minima (maxima). Note that the parameters have been set for the agent to learn quickly and we do not wait for full convergence. Feel free to run the program several times and to tweak the parameters to try and find the globally optimal strategy.
+As an example, we implement a **value-based Q-learning** algorithm that learns to trade a periodic signal. Run `python examples/dqn_agent.py` to launch it. Once the learning process is over, the learned strategy is displayed as live time series. Trades are represented by colored (green for buy, red for sell) triangles. Once run, the agent will have learned to buy (sell) at local minima (maxima). Note that the parameters have been set for the agent to learn quickly and we do not wait for full convergence. Feel free to run the program several times and to tweak the parameters to try and find the globally optimal strategy.
 
 The attributes of the `DQNAgent` class are :
   1.  `memory_size` : number of observations kept in memory for learning,
