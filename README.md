@@ -32,7 +32,7 @@ It is currently composed of a single environment and implements a generic way of
 ## Running
 
 ```shell
-python dqn_agent.py
+python examples/dqn_agent.py
 ```
 
 ## Configurations
