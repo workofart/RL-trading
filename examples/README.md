@@ -1,6 +1,6 @@
 # Examples
 
-## Interactive Trading Example: `SpreadWavyInteractive.py`
+## Interactive Trading Example: `SpreadWavyInteractive.py` or `SpreadCSVInteractive.py`
 
 This example runs the trading environment in interactive mode. The environment can take as input three possible actions: Buy, sell and hold. At each step, the environment returns a state composed of:
 - current prices, 

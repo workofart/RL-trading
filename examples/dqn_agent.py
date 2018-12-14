@@ -53,14 +53,14 @@ class DQNAgent:
     def exportModel(self):
         # serialize model to JSON
         model_json = self.brain.to_json()
-        with open("model.json", "w") as json_file:
+        with open("../models/model.json", "w") as json_file:
             json_file.write(model_json)
         # serialize weights to HDF5
-        self.brain.save_weights("model.h5")
+        self.brain.save_weights("../models/model.h5")
         print("Saved model to disk")
 
     def importModel(self):
-        json_file = open('model.json', 'r')
+        json_file = open('../models/model.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         self.brain = model_from_json(loaded_model_json)

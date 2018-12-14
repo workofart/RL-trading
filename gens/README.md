@@ -1,6 +1,6 @@
 # Data Generators
 
-To create your own data generator, it must inherit from the `DataGenerator` base class which can be found in the file 'tgym/core.py' (after you've installed [tgym](https://pypi.org/project/tgym/)`). It consists of four methods. Only the private `_generator` method which defines the times series needs to be overridden. Example can be found at `gens/random_generator.py`. For only one product, the `_generator` method **must** yield a `(bid, ask)` tuple, one element at a time. For two or more products, you must return a tuple consisting of bid and ask prices for each product, concatenated. For instance for two products, the method should yield `(bid_1, ask_1, bid_2, ask_2)`. The logic for the time series is encoded there.
+To create your own data generator, it must inherit from the `DataGenerator` base class which can be found in the file `tgym/core.py` (after you've installed [tgym](https://pypi.org/project/tgym/)). It consists of four methods. Only the private `_generator` method which defines the times series needs to be overridden. Example can be found at `gens/random_generator.py`. For only one product, the `_generator` method **must** yield a `(bid, ask)` tuple, one element at a time. For two or more products, you must return a tuple consisting of bid and ask prices for each product, concatenated. For instance for two products, the method should yield `(bid_1, ask_1, bid_2, ask_2)`. The logic for the time series is encoded there.
 
 ## Random Price Generator: `random_generator.py`
 

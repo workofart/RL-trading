@@ -10,9 +10,12 @@ It is currently composed of a single environment and implements a generic way of
 We strongly recommend using virtual environments. A very good guide can be found at http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/.
 
 
-![]()
+## Demo
+*Perfect* Sine-Function Trading
+![](https://raw.githubusercontent.com/workofart/RL-trading/master/Perfect.gif)
 
-## Create your own `DataGenerator`
+*Semi-Perfect* Sine-Function Trading
+![](https://raw.githubusercontent.com/workofart/RL-trading/master/SemiPerfect.gif)
 
 
 ## Compatibility with OpenAI gym
@@ -25,4 +28,4 @@ To run the `dqn_agent.py` example, you will need to also install keras with `pip
 
 ## License
 
-MIT License
+[MIT License](https://github.com/workofart/RL-trading/blob/master/LICENSE)
