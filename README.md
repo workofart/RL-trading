@@ -21,7 +21,7 @@ It is currently composed of a single environment and implements a generic way of
     pip install tgym
     ```
 
-    We strongly recommend using virtual environments. A very good guide can be found at http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/.
+    We strongly recommend using virtual environments. A very good guide can be found at https://python-guide-pt-br.readthedocs.io/pt_BR/latest/dev/virtualenvs.html.
 
 3. Then install keras
     ```shell
@@ -46,7 +46,7 @@ plt.interactive(False)
 
 ## Compatibility with OpenAI gym
 
-Our environments API is strongly inspired by OpenAI Gym. We aim to entirely base it upon OpenAI Gym architecture and propose Trading Gym as an additional OpenAI environment.
+Our environments API is strongly inspired by [OpenAI](https://gym.openai.com/) Gym. We aim to entirely base it upon OpenAI Gym architecture and propose Trading Gym as an additional OpenAI environment.
 
 ## License
 
